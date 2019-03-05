@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: db, core, wx
+  messages:
+    encoding: UTF-8
+
+server:
+  port: 10087
+
+logging:
+  level:
+    root:  ERROR
+    org.springframework:  ERROR
+    org.mybatis:  ERROR
+    com.goodstuff.mall.wx:  DEBUG
+    com.goodstuff.mall:  ERROR

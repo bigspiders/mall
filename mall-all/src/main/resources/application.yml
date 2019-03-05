@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: db, core, admin, wx
+  messages:
+    encoding: UTF-8
+
+server:
+  port: 10086
+
+logging:
+  level:
+    root:  ERROR
+    org.springframework:  ERROR
+    org.mybatis:  ERROR
+    com.goodstuff.mall.core:  ERROR
+    com.goodstuff.mall.db:  ERROR
+    com.goodstuff.mall.admin:  ERROR
+    com.goodstuff.mall.wx:  ERROR
+    com.goodstuff.mall:  ERROR
