@@ -1,4 +1,4 @@
-litemall:
+mall:
   # 开发者应该设置成自己的wx相关信息
   wx:
     app-id: wxa5b486c6b918ecfb
@@ -105,3 +105,9 @@ litemall:
       secretKey: xxxxxx
       region: xxxxxx
       bucketName: xxxxxx
+    # 七牛云对象存储配置信息
+    qiniu:
+      endpoint: http://pd5cb6ulu.bkt.clouddn.com
+      accessKey: 111111
+      secretKey: xxxxxx
+      bucketName: mall
