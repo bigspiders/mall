@@ -1,6 +1,6 @@
 #mall
 
-程序将加入：商场  购物车  秒杀  Kafka  redis  lucene等等，一起学习新技术
+程序将加入：商场  购物车  秒杀  Kafka  redis  lucene等等，一起学习新技术,记得给个星，以资鼓励，谢谢
 
 mall 由 Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端
 
